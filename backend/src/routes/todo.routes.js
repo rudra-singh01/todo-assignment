@@ -1,5 +1,4 @@
 import express from "express";
-import { Routes } from "react-router-dom";
 import { authMiddleware } from "../middleware/auth.middleware.js";
 import { createTodo, deleteTodo, getTodo, updateStatus, updateTodo } from "../controllers/todo.controller.js";
 
